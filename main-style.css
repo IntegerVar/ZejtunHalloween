@@ -98,17 +98,34 @@ button {
 }
 
 #buttons {
-
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
 }
 
 #container{
-
 	height: 100vh;
 	margin: 0;
 	padding: 0;
+}
+
+#Poster2025 {
+	margin-bottom: -500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#banner {
+	background-color: #ff824d;
+	font-size: 20px;
+	margin-top:0px;
+	padding-top:15px;
+}
+
+#bannerLargeNotice{
+	background-color: #ff824d;
+	margin-bottom:0px;
 }
 
 *, body {
@@ -131,12 +148,21 @@ button:hover {
 	button {
 		font-size: 30px;
 	}
+	#Poster2025 {
+		margin-bottom: -530px
+	}
 }
 
 
 @media only screen and (max-width: 380px) {
 	button {
 		font-size: 20px;
+	}
+
+	#Poster2025 {
+		transform: scale(0.8);
+		margin-top: -20px;
+		margin-bottom: -600px
 	}
 }
 
