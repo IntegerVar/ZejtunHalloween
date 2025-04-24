@@ -87,33 +87,16 @@ button {
 	position: relative;
 }
 
-#spookyMapButton {
-	position: relative;
-	bottom: 15px;
-}
-
 #halloween2024Button {
 	position: relative;
 	top: 15px;
 }
 
-#buttons {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-#container{
-	height: 100vh;
-	margin: 0;
-	padding: 0;
-}
-
 #Poster2025 {
-	margin-bottom: -325px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom:30px;
 }
 
 #banner {
@@ -148,21 +131,12 @@ button:hover {
 	button {
 		font-size: 30px;
 	}
-	#Poster2025 {
-		margin-bottom: -360px
-	}
 }
 
 
 @media only screen and (max-width: 380px) {
 	button {
 		font-size: 20px;
-	}
-
-	#Poster2025 {
-		transform: scale(0.8);
-		margin-top: -20px;
-		margin-bottom: -425px
 	}
 }
 
